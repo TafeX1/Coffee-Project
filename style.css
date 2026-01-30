@@ -28,20 +28,9 @@
       z-index: 1;
 }
 
-.overlay-icon {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-size: 50px;
-      opacity: 0;
-      transition: all 0.3s ease;
-      pointer-events: none;
-}
-
 .box:hover img {
       transform: scale(1.1);
-      filter: brightness(0.4);
+      filter: brightness(0.6);
 }
 
 .box:hover .overlay-icon {
@@ -95,30 +84,9 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      /* لتوسيط الأيقونة تمامًا */
       opacity: 0;
-      /* إخفاء الأيقونة في الحالة العادية */
       transition: opacity 0.3s ease;
-      /* جعل الظهور سلسًا */
       color: white;
-      /* لون الأيقونة */
       font-size: 48px;
-      /* حجم الأيقونة */
-      /* يمكنك إضافة خلفية شفافة للأيقونة إذا أردت */
-      /* background-color: rgba(0, 0, 0, 0.5); */
-      /* padding: 20px; */
-      /* border-radius: 50%; */
       pointer-events: none;
-      /* لضمان عدم تداخل الأيقونة مع أحداث الماوس على الصورة */
-}
-
-/* تأثير عند مرور الماوس على الحاوية */
-.image-container:hover .overlay-icon {
-      opacity: 1;
-      /* إظهار الأيقونة */
-}
-
-/* تأثير اختياري: تكبير الصورة قليلاً عند المرور */
-.image-container:hover .main-image {
-      transform: scale(1.1);
 }
