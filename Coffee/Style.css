@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background-image:url('Coffee-imgs/bodyBcg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(221, 177, 141);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(71, 46, 17, 0.699);
+    font-size: 45px;
+    color: rgb(221, 184, 141);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+}
+.container h1 {
+    color: black;
+    font-size: 50px;
+}
+.container p {
+    margin-top: 20px;
+
+    color: rgb(117, 83, 44);
+    font-size: 25px;
+}
+.row img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+
+
+@media (max-width: 1024px) {
+    .container h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .container p {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+}
+@media (max-width: 768px) {
+    .container h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .container p {
+        font-size: 15px;
+        text-align: center;
+    }
+    
+}
