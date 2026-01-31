@@ -2,6 +2,8 @@
 
 .contbg {
       background-image: url(bodyBcg.jpeg);
+      background-size: cover;
+      background-position: center;
 }
 
 .textnimg p {
@@ -65,7 +67,7 @@
             flex-direction: column;
       }
 
-      .grid-container.box {
+      .grid-container .box {
             height: 250px;
             width: 100%;
       }
@@ -89,4 +91,9 @@
       color: white;
       font-size: 48px;
       pointer-events: none;
+}
+.cafe{
+      width: 100%;
+      object-fit: cover;
+      aspect-ratio: 1/1;
 }
