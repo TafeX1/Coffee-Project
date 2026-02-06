@@ -13,15 +13,19 @@ body {
     align-items: center;
 
 }
-.welcome{
+
+.welcome {
     font-size: 35px;
 }
-.cof-junkie{
+
+.cof-junkie {
     font-size: 60px;
 }
-.orderr{
+
+.orderr {
     font-size: 40px;
 }
+
 .coflist h5 {
     display: flex;
     justify-content: center;
@@ -31,8 +35,14 @@ body {
 
 .card {
     background-color: rgb(233, 225, 210);
+    width: 18rem;
+    
 }
 
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
 .card p {
     font-size: 20px;
 }
@@ -54,17 +64,111 @@ body {
     flex-direction: column;
 }
 
+.off {
+    font-size: 40px;
+}
+
+.subscribe {
+    font-size: 20px;
+}
+
 @media (max-width: 1024px) {
-    .headbg{
+    .headbg {
         height: 80vh;
     }
-.cof-junkie{
-    font-size: 50px;
+
+    .cof-junkie {
+        font-size: 50px;
     }
-    .orderr{
+
+    .orderr {
         font-size: 28px;
     }
- .headbg .mt-3{
-    font-size: 20px;
- }
+
+    .headbg .mt-3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .headbg {
+        background-size: 100% 100%;
+    }
+
+    .card {
+        width: 13rem;
+    }
+    .card h5{
+        font-size: 20px;
+    }
+    .card p{
+        font-size: 15px;
+    }
+
+    .cof-junkie {
+        font-size: 40px;
+    }
+
+    .orderr {
+        font-size: 30px;
+    }
+
+    .headbg .mt-3 {
+        font-size: 15px;
+    }
+
+    .off {
+        font-size: 20px;
+    }
+
+    .subscribe {
+        font-size: 15px;
+    }
+}
+@media (max-width: 375px) {
+    .card {
+        width: 11rem;
+    }
+    .card h5{
+        font-size: 18px;
+    }
+    .card p{
+        font-size: 14px;
+    }
+
+    a{
+        font-size: 10px;
+    }
+    .cof-junkie {
+        font-size: 40px;
+    }
+
+    .orderr {
+        font-size: 30px;
+    }
+
+    .headbg .mt-3 {
+        font-size: 13px;
+    }
+
+    .off {
+        font-size: 15px;
+    }
+
+    .subscribe {
+        font-size: 11px;
+    }
+    
+}
+@media (max-width: 320px) {
+        .card {
+        width: 9rem;
+    }
+    .card h5{
+        font-size: 13px;
+    }
+    .card p{
+        font-size: 11px;
+    }
+
 }
