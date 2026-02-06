@@ -1,0 +1,88 @@
+.booking-header{
+    font-family: 'La Belle Aurore' ,cursive;
+color: #C59401;
+}
+
+
+.booking-section-custom {
+    background-color: #fdfaf5 !important; 
+    padding: 60px 20px;
+    width: 100%;
+}
+
+.booking-header h1 {
+    color: #2c1810 !important;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+
+.booking-form-area {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+.custom-input-group {
+    margin-bottom: 20px;
+}
+
+.custom-input-group label {
+    display: block;
+    color: #4a3427 !important; 
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.custom-input-group input {
+    width: 100%;
+    padding: 12px;
+    background: #ffffff !important; 
+    color: #2c1810 !important; 
+    border: 1px solid #ddd !important;
+    border-radius: 8px;
+}
+
+
+.booking-confirm-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #b67d56 !important;
+    color: white !important;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.custom-input-row {
+    display: flex;
+    gap: 15px;
+}
+.custom-input-row .custom-input-group {
+    flex: 1;
+}
+
+.custom-input-group select, 
+.custom-input-group textarea {
+    width: 100%;
+    padding: 12px;
+    background: #ffffff !important;
+    color: #2c1810 !important; 
+    border: 1px solid #ddd !important;
+    border-radius: 8px;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+
+.custom-input-group textarea {
+    resize: vertical; 
+    min-height: 100px;
+}
+
+
+.custom-input-group textarea::placeholder {
+    text-align: right;
+}

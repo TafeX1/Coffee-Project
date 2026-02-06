@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+    </style>
+</head>
+
+<body>
+    <section class="booking-section-custom">
+        <div class="booking-header">
+            <h1>Book Your Table</h1>
+
+        </div>
+
+        <form class="booking-form-area">
+            <div class="custom-input-group">
+                <label>Full Name</label>
+                <input type="text" placeholder="ادخل اسمك بالكامل" required>
+            </div>
+
+            <div class="custom-input-group">
+                <label>Phone Number</label>
+                <input type="text" placeholder="01012345678" required>
+            </div>
+
+            <div class="custom-input-group">
+                <label>Email</label>
+                <input type="email" placeholder="your@email.com" required>
+            </div>
+
+
+            <div class="custom-input-row">
+                <div class="custom-input-group">
+                    <label>Time</label>
+                    <input type="time" required>
+                </div>
+                <div class="custom-input-group">
+                    <label>Date</label>
+                    <input type="date" required>
+                </div>
+            </div>
+            <div class="custom-input-group">
+                <label>Numbur of people</label>
+                <select required>
+                    <option value="disbled selected">Select number of people</option>
+                    <option>1-2 people</option>
+                    <option>3-5 people</option>
+                    <option>+6 people</option>
+                </select>
+            </div>
+
+            <div class="custom-input-group">
+                <label>Special Requests (Optional)</label>
+                <textarea placeholder="أي طلبات خاصة او ملاحظات؟" rows="4"></textarea>
+            </div>
+            <button type="submit" class="booking-confirm-btn">Confirm Reservation </button>
+        </form>
+    </section>
+</body>
+
+</html>

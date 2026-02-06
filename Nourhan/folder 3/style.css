@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1d0d03;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family:'Montserrat' sans-serif;
+}
+
+h3{
+    color: #C59401;
+}
+h2{
+    font-family: 'La Belle Aurore' ,cursive;
+color: #C59401;
+}
+p{
+    color: #FFF8F0;
+}
+
+.container{
+    text-align: center !important;
+    display: block !important;
+    width: 100% !important;
+}
+
+.main-title, .sub-title{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+}
+
+.mood-options {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: stretch; 
+    flex-wrap: nowrap;           
+    justify-content: center !important;   
+    gap: 30px;                 
+    padding: 40px 20px;
+}
+
+
+.mood-card {
+    background: rgba(103, 66, 16, 0.3); 
+    backdrop-filter: blur(10px);        
+    border: 1px solid rgba(211, 175, 55, 0.4); 
+    border-radius: 25px;                
+    width: 150px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;              
+    transition: all 0.4s ease;          
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3); 
+}
+.mood-card:visited, .mood-card:active, .mood-card:link{
+    text-decoration: none !important;
+    color: #FFF8F0;
+}
+.suggestion h4{
+    color: #D3AF37;
+    margin-bottom: 5PX;
+}
+.suggestion P{
+    color: #FFF8F0;
+    font-size: 0.9rem;
+}
+
+.mood-card:hover {
+    transform: translateY(-12px);       
+    background: rgba(103, 66, 16, 0.6);  
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+.mood-card img, .mood-icon {
+    width: 100px;                       
+    height: 100px;
+    object-fit: contain;                
+    margin-bottom: 20px;                
+}
+
+
+.mood-label {
+    color: #D3AF37;                    
+    font-size: 1.3rem;
+    font-weight: bold;                  
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5); 
+}
+
+.mood-desc {
+    color: #FFFAEA;                     
+    font-size: 1rem;
+}
+
+.suggestion{
+    display: none;
+    background: rgb(211, 175,55,0.15);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.mood-card:target .suggestion{
+    display: block !important;
+
+}
+
+@media (max-width: 768px){
+    .mood-options{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mood-card{
+        width: 90%;
+        max-width: 300px;
+    }
+}
+
+

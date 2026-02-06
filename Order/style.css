@@ -13,7 +13,15 @@ body {
     align-items: center;
 
 }
-
+.welcome{
+    font-size: 35px;
+}
+.cof-junkie{
+    font-size: 60px;
+}
+.orderr{
+    font-size: 40px;
+}
 .coflist h5 {
     display: flex;
     justify-content: center;
@@ -33,4 +41,30 @@ body {
     font-size: 30px;
     display: flex;
     justify-content: center;
+}
+
+.discount {
+    background-image: url(work-img/dark+kiss+background.webp);
+    background-size: cover;
+    width: 100%;
+    height: 23vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (max-width: 1024px) {
+    .headbg{
+        height: 80vh;
+    }
+.cof-junkie{
+    font-size: 50px;
+    }
+    .orderr{
+        font-size: 28px;
+    }
+ .headbg .mt-3{
+    font-size: 20px;
+ }
 }
